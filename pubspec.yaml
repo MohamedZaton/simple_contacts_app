@@ -1,0 +1,26 @@
+name: contacts_hive
+description: A HiveDB sample project that demonstrates TypeAdapter functionality.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive:
+  hive_flutter:
+    git:
+      url: git://github.com/hivedb/hive.git
+      path: hive_flutter
+
+dev_dependencies:
+  hive_generator:
+    git:
+      url: git://github.com/hivedb/hive.git
+      path: hive_generator
+  build_runner: ^1.10.0
+
+flutter:
+  uses-material-design: true
